@@ -1,0 +1,29 @@
+/* css for everything */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    height: 50px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
